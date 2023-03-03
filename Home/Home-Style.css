@@ -6,12 +6,21 @@ body {
     padding: 0;
   }
 
-header {
+  header {
     background-color:#36293b;
     color: #fff;
     padding: 20px;
-    text-align: center;
+    text-align: left;
   }
+
+  header img {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    max-width: 80px;
+    height: auto;
+  }
+
   
   /* Style the navigation menu */
   nav {
@@ -103,6 +112,7 @@ header {
     #about h2 {
       font-size: 100px;
       text-shadow: 2px 2px #f1f1f1;
+      text-align: center;
     }
 
     /* Shows Section Styles */

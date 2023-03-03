@@ -8,9 +8,17 @@ header {
     background-color:#36293b;
     color: #fff;
     padding: 20px;
-    text-align: center;
+    text-align: left;
   }
-  
+
+  header img {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    max-width: 80px;
+    height: auto;
+  }
+
   /* Style the navigation menu */
   nav {
     background-color: #ccc;
